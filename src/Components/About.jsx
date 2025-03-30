@@ -1,5 +1,10 @@
 import React from "react";
 import Navbar from "./NavBar";
+import webDesign from "../img/icon-design.svg";
+import webDevlopment from '../img/icon-dev.svg';
+import mobileApp from '../img/icon-app.svg';
+import photography from '../img/icon-photo.svg';
+
 
 function About(){
     return(<>
@@ -39,7 +44,8 @@ function About(){
             <li className="service-item">
 
               <div className="service-icon-box">
-                {/* <img src="./assets/images/icon-design.svg                " alt="design icon" width="40"> */}
+                <img src={webDesign} alt="design icon" width="40"/>
+
               </div>
 
               <div className="service-content-box">
@@ -55,7 +61,7 @@ function About(){
             <li className="service-item">
 
               <div className="service-icon-box">
-                {/* <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40"> */}
+                <img src={webDevlopment} alt="Web development icon" width="40"/>
               </div>
 
               <div className="service-content-box">
@@ -71,7 +77,7 @@ function About(){
             <li className="service-item">
 
               <div className="service-icon-box">
-                {/* <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40"> */}
+                <img src={mobileApp} alt="mobile app icon" width="40"/>
               </div>
 
               <div className="service-content-box">
@@ -87,7 +93,7 @@ function About(){
             <li className="service-item">
 
               <div className="service-icon-box">
-                {/* <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"> */}
+                <img src={photography} alt="camera icon" width="40"/>
               </div>
 
               <div className="service-content-box">
