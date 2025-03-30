@@ -1,5 +1,12 @@
 import React from "react";
 import MyImage from "../img/my-avatar.png";
+import { HiOutlineDevicePhoneMobile } from "react-icons/hi2";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillCalendar2DateFill } from "react-icons/bs";
+import { FaMapLocationDot } from "react-icons/fa6";
+import { BsFacebook } from "react-icons/bs";
+import { FaTwitter } from "react-icons/fa";
+import { SiInstagram } from "react-icons/si";
 
 function SideBarSection() {
   return (
@@ -27,10 +34,7 @@ function SideBarSection() {
           <ul className="contacts-list">
             <li className="contact-item">
               <div className="icon-box">
-              <span className="material-symbols-outlined">
-mail
-</span>
-
+              <HiOutlineMail />
               </div>
               <div className="contact-info">
                 <p className="contact-title">Email</p>
@@ -42,10 +46,11 @@ mail
 
             <li className="contact-item">
               <div className="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
+              <HiOutlineDevicePhoneMobile />
               </div>
               <div className="contact-info">
-                <p className="contact-title">Phone</p>
+                <p className="contact-title">Phone
+</p>
                 <a href="tel:+12133522795" className="contact-link">
                   +1 (213) 352-2795
                 </a>
@@ -54,7 +59,7 @@ mail
 
             <li className="contact-item">
               <div className="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
+              <BsFillCalendar2DateFill />
               </div>
               <div className="contact-info">
                 <p className="contact-title">Birthday</p>
@@ -64,7 +69,7 @@ mail
 
             <li className="contact-item">
               <div className="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
+              <FaMapLocationDot />
               </div>
               <div className="contact-info">
                 <p className="contact-title">Location</p>
@@ -78,19 +83,19 @@ mail
           <ul className="social-list">
             <li className="social-item">
               <a href="#" className="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
+              <BsFacebook />
               </a>
             </li>
 
             <li className="social-item">
               <a href="#" className="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
+              <FaTwitter />
               </a>
             </li>
 
             <li className="social-item">
               <a href="#" className="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
+              <SiInstagram />
               </a>
             </li>
           </ul>
