@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "./NavBar";
+import { PiTelegramLogoFill } from "react-icons/pi";
+
 
 function Contact() {
   return (
@@ -52,7 +54,7 @@ function Contact() {
                 data-form-input
               ></textarea>
               <button className="form-btn" type="submit" disabled data-form-btn>
-                <ion-icon name="paper-plane"></ion-icon>
+                <PiTelegramLogoFill/>
                 <span>Send Message</span>
               </button>
             </form>
