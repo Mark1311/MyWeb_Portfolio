@@ -4,6 +4,16 @@ import webDesign from "../img/icon-design.svg";
 import webDevlopment from '../img/icon-dev.svg';
 import mobileApp from '../img/icon-app.svg';
 import photography from '../img/icon-photo.svg';
+import testimonial01 from '../img/avatar-1.png';
+import testimonial02 from '../img/avatar-2.png';
+import testimonial03 from '../img/avatar-3.png';
+import testimonial04 from '../img/avatar-4.png';
+import logo01 from '../img/logo-1-color.png';
+import logo02 from '../img/logo-2-color.png';
+import logo03 from '../img/logo-3-color.png';
+import logo04 from '../img/logo-4-color.png';
+import logo05 from '../img/logo-5-color.png';
+import logo06 from '../img/logo-6-color.png';
 
 
 function About(){
@@ -125,7 +135,7 @@ function About(){
               <div className="content-card" data-testimonials-item>
 
                 <figure className="testimonials-avatar-box">
-                  {/* <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar> */}
+                  <img src={testimonial01} alt="Daniel lewis" width="60" data-testimonials-avatar/>
                 </figure>
 
                 <h4 className="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
@@ -147,7 +157,7 @@ function About(){
               <div className="content-card" data-testimonials-item>
 
                 <figure className="testimonials-avatar-box">
-                  {/* <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar> */}
+                  <img src={testimonial02} alt="Jessica miller" width="60" data-testimonials-avatar/>
                 </figure>
 
                 <h4 className="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
@@ -169,7 +179,7 @@ function About(){
               <div className="content-card" data-testimonials-item>
 
                 <figure className="testimonials-avatar-box">
-                  {/* <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar> */}
+                  <img src={testimonial03} alt="Emily evans" width="60" data-testimonials-avatar/>
                 </figure>
 
                 <h4 className="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
@@ -191,7 +201,7 @@ function About(){
               <div className="content-card" data-testimonials-item>
 
                 <figure className="testimonials-avatar-box">
-                  {/* <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar> */}
+                  <img src={testimonial04} alt="Henry william" width="60" data-testimonials-avatar/>
                 </figure>
 
                 <h4 className="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
@@ -271,37 +281,37 @@ function About(){
 
             <li className="clients-item">
               <a href="#">
-                {/* <img src="./assets/images/logo-1-color.png" alt="client logo"> */}
+                <img src={logo01} alt="client logo"/>
               </a>
             </li>
 
             <li className="clients-item">
               <a href="#">
-                {/* <img src="./assets/images/logo-2-color.png" alt="client logo"> */}
+              <img src={logo02} alt="client logo"/>
               </a>
             </li>
 
             <li className="clients-item">
               <a href="#">
-                {/* <img src="./assets/images/logo-3-color.png" alt="client logo"> */}
+              <img src={logo03} alt="client logo"/>
               </a>
             </li>
 
             <li className="clients-item">
               <a href="#">
-                {/* <img src="./assets/images/logo-4-color.png" alt="client logo"> */}
+              <img src={logo04} alt="client logo"/>
               </a>
             </li>
 
             <li className="clients-item">
               <a href="#">
-                {/* <img src="./assets/images/logo-5-color.png" alt="client logo"> */}
+              <img src={logo05} alt="client logo"/>
               </a>
             </li>
 
             <li className="clients-item">
               <a href="#">
-                {/* <img src="./assets/images/logo-6-color.png" alt="client logo"> */}
+              <img src={logo06} alt="client logo"/>
               </a>
             </li>
 
