@@ -1,5 +1,12 @@
 import React from "react";
 import Navbar from "./NavBar";
+import Blog01 from '../img/blog-1.jpg'
+import Blog02 from '../img/blog-2.jpg';
+import Blog03 from '../img/blog-3.jpg';
+import Blog04 from '../img/blog-4.jpg'
+import Blog05 from '../img/blog-5.jpg'
+import Blog06 from '../img/blog-6.jpg'
+
 
 function Blog(){
     return(<>
@@ -20,7 +27,7 @@ function Blog(){
               <a href="#">
 
                 <figure className="blog-banner-box">
-                  {/* <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy"> */}
+                  <img src={Blog01} alt="Design conferences in 2022" loading="lazy"/>
                 </figure>
 
                 <div className="blog-content">
@@ -48,7 +55,7 @@ function Blog(){
               <a href="#">
 
                 <figure className="blog-banner-box">
-                  {/* <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy"> */}
+                <img src={Blog02} alt="Design conferences in 2022" loading="lazy"/>
                 </figure>
 
                 <div className="blog-content">
@@ -76,7 +83,7 @@ function Blog(){
               <a href="#">
 
                 <figure className="blog-banner-box">
-                  {/* <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy"> */}
+                <img src={Blog03} alt="Design conferences in 2022" loading="lazy"/>
                 </figure>
 
                 <div className="blog-content">
@@ -104,7 +111,7 @@ function Blog(){
               <a href="#">
 
                 <figure className="blog-banner-box">
-                  {/* <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy"> */}
+                <img src={Blog04} alt="Design conferences in 2022" loading="lazy"/>
                 </figure>
 
                 <div className="blog-content">
@@ -132,7 +139,7 @@ function Blog(){
               <a href="#">
 
                 <figure className="blog-banner-box">
-                  {/* <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy"> */}
+                <img src={Blog05} alt="Design conferences in 2022" loading="lazy"/>
                 </figure>
 
                 <div className="blog-content">
@@ -160,7 +167,7 @@ function Blog(){
               <a href="#">
 
                 <figure className="blog-banner-box">
-                  {/* <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy"> */}
+                <img src={Blog06} alt="Design conferences in 2022" loading="lazy"/>
                 </figure>
 
                 <div className="blog-content">
