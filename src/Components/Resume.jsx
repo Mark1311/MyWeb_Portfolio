@@ -1,5 +1,9 @@
 import React from "react";
 import Navbar from "./NavBar";
+import { IoIosSchool } from "react-icons/io";
+import { MdWork } from "react-icons/md";
+
+
 
 function Resume() {
   return (
@@ -15,7 +19,7 @@ function Resume() {
           <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+              <IoIosSchool />
               </div>
               <h3 className="h3">Education</h3>
             </div>
@@ -49,7 +53,7 @@ function Resume() {
           <section className="timeline">
             <div className="title-wrapper">
               <div className="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+                <MdWork/>
               </div>
               <h3 className="h3">Experience</h3>
             </div>
